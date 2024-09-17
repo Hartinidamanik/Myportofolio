@@ -13,7 +13,7 @@ h1{
   margin-bottom: -2%;
 }
 h2,h3{
-  color:#00a2c6;
+  color:#6200ea;
 }
 p{
   font-size: 22px;
@@ -21,7 +21,7 @@ p{
 footer{
   padding:20px;
   color:white;
-  background-color:#00a2c6;
+  background-color:#6200ea;
   text-align:center;
   text-weight:bold;
 }
@@ -38,10 +38,9 @@ nav a:hover{
   text-align:center;
 }
 .featured-image{
-  width:100%;
-  max-height:300px;
-  object-fit:cover;
-  object-position:center;
+  width:50%;
+  object-fit: cover;
+  object-position: center;
 }
 .profile img{
   width:200px;
@@ -76,9 +75,9 @@ nav .logo{
     color: white;
     font-size: 1.7rem;
     font-weight: bold;
-    margin-right: 200px;
-    margin-left: 200px;
-    margin-top: -7%;
+    margin-right: 18px;
+    margin-left: 180px;
+    margin-top: -12%;
 }
 nav{
   background-color:white;
@@ -106,7 +105,7 @@ nav{
 
 .progress-bar {
   height: 100%;
-  background-color: #6C63FF;
+  background-color: #6200ea;
   border-radius: 20px;
 }
 
@@ -134,6 +133,11 @@ main h2{
 aside{
   flex:1;
   margin-top: -350px;
+  #contact{
+    color:#6200ea;
+    font-weight: bold;
+  }
+  
   
 }
 header{
@@ -150,6 +154,21 @@ main aside{
 @media screen and (max-width:768px){
   nav ul{
     justify-content:center;
+    align-items: center;
+    background-color: #6200ea; /* Purple background */
+    width: 100px;
+    height: 100px;
+    clip-path: ellipse(90% 100% at 50% 0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin-right: 18px;
+    margin-left: 180px;
+    margin-top: -12%;
+
   }
   main aside{
     align-self:stretch;
