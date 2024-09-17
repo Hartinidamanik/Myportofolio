@@ -15,6 +15,9 @@ h1{
 h2,h3{
   color:#00a2c6;
 }
+p{
+  font-size: 22px;
+}
 footer{
   padding:20px;
   color:white;
@@ -23,7 +26,7 @@ footer{
   text-weight:bold;
 }
 nav a{
-  font-size:18px;
+  font-size:1.7rem;
   font-weight:400;
   text-decoration:none;
   color:white;
@@ -65,16 +68,17 @@ nav .logo{
     align-items: center;
     background-color: #6200ea; /* Purple background */
     width: 100px;
-    height: 70px;
+    height: 100px;
     clip-path: ellipse(90% 100% at 50% 0%);
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
-    font-size: 1.2rem;
+    font-size: 1.7rem;
     font-weight: bold;
     margin-right: 200px;
-    margin-top: -10%;
+    margin-left: 200px;
+    margin-top: -7%;
 }
 nav{
   background-color:white;
@@ -82,13 +86,43 @@ nav{
   position:sticky;
   top:0;
 }
+.skill {
+  margin-bottom: 20px;
+}
+
+.skill h3 {
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.progress {
+  background-color: #eee;
+  border-radius: 20px;
+  overflow: hidden;
+  height: 20px;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.progress-bar {
+  height: 100%;
+  background-color: #6C63FF;
+  border-radius: 20px;
+}
+
+span {
+  font-size: 14px;
+  color: #555;
+}
 main{
   padding:20px;
   display:flex;
   gap:1.5rem;
+  margin-left: 200px;
+  margin-top: 200px;
 }
 main h2{
-  font-weight: 500;
+  font-weight: 400;
   color: black;
 }
 #content{
@@ -99,6 +133,7 @@ main h2{
 }
 aside{
   flex:1;
+  margin-top: -350px;
   
 }
 header{
