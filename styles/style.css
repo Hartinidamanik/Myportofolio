@@ -2,9 +2,15 @@
   box-sizing:border-box;
 }
 body{
-  font-family:'Quicksand',sans-serif;
+  font-family:'Roboto',sans-serif,'Montserrat';
   margin:0;
   padding:0;
+}
+h1{
+  font-weight: bold;
+  font-size: 4rem;
+  margin-top: -2%;
+  margin-bottom: -2%;
 }
 h2,h3{
   color:#00a2c6;
@@ -42,13 +48,6 @@ nav a:hover{
   border-radius:5px;
   padding:20px;
 }
-.jumbotron{
-  font-size:20px;
-  padding:60px;
-  background-color:#00c8eb;
-  text-align:center;
-  color:white;
-}
 nav ul{
   padding-inline:4rem;
   display:flex;
@@ -58,8 +57,27 @@ nav li{
   list-style-type:none;
   margin-right:20px;
 }
+nav li a{
+  color:#6200ea;
+  font-weight: bold;
+}
+nav .logo{
+    align-items: center;
+    background-color: #6200ea; /* Purple background */
+    width: 100px;
+    height: 70px;
+    clip-path: ellipse(90% 100% at 50% 0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-right: 200px;
+    margin-top: -10%;
+}
 nav{
-  background-color:#00a2c6;
+  background-color:white;
   padding:5px;
   position:sticky;
   top:0;
@@ -67,7 +85,11 @@ nav{
 main{
   padding:20px;
   display:flex;
-  gap:1.5rem
+  gap:1.5rem;
+}
+main h2{
+  font-weight: 500;
+  color: black;
 }
 #content{
   flex:5;
